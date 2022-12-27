@@ -1,0 +1,50 @@
+header{
+    position: absolute;
+    height: 65px;
+    width: 100%;
+    z-index: 2;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    padding: 0 20px;
+    height: 100%;
+    margin: auto;
+}
+
+.logo{
+    font-family: var(--logo-font);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color1);
+    cursor: pointer;
+}
+
+.links_container{
+    display: flex;
+    gap: 50px;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* responsive */
+
+@media screen and (max-width: 500px) {
+    .links_container{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links_container{
+        gap: 15px;
+    }
+}

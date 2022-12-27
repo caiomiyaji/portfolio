@@ -1,0 +1,33 @@
+.socials_container{
+    position: absolute;
+    top: calc(100% - 50px);
+    left: 20px;
+    transform: translateY(-100%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--color1);
+    z-index: 2;
+}
+
+.linkedin{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.github{
+    font-size: 2.2rem;
+    margin: -1.7px;
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media screen and (max-height: 800px) {
+    .socials_container{
+        flex-direction: row;
+        left: calc(100% - 20px);
+        top: calc(100%  - 20px);
+        transform: translate(-100%, -100%);
+    } 
+}

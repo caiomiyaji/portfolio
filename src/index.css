@@ -1,0 +1,15 @@
+:root{
+    --color1: #470214;
+    --color2: #82655b;
+    --color3: #636882;
+
+    --logo-font: 'Sawarabi Mincho', serif;
+    --main-font: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
