@@ -6,24 +6,29 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: var(--color1);
     z-index: 2;
 }
+
+
 
 .linkedin{
     font-size: 2rem;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--color1);
 }
 
 .github{
     font-size: 2.2rem;
     margin: -1.7px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--color1);
 }
 
 /* responsive */
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 800px ), (max-width: 1200px) {
     .socials_container{
         flex-direction: row;
         left: calc(100% - 20px);

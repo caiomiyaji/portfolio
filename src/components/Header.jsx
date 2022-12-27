@@ -8,7 +8,7 @@ function Header () {
                 <span className={style.logo}>宮路</span>
                 <div className={style.links_container}>
                     <a className={style.links} href="#about">About</a>
-                    <a className={style.links} href="#techs">Techs</a>
+                    <a className={style.links} href="#skills">Skills</a>
                     <a className={style.links} href="#projects">Projects</a>
                 </div>
             </div>

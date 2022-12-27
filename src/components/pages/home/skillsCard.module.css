@@ -1,0 +1,31 @@
+.skill_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.skill_card > p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color1);
+}
+
+.skill_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(255, 255, 255);
+    border: 5px solid var(--color1);
+    border-radius: 50%;
+}
+
+.skill_img > img{
+    width: 50%;
+    height: 50%;
+}

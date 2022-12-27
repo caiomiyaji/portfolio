@@ -1,5 +1,5 @@
 import About from './About';
-import Techs from './Techs';
+import Skills from './Skills';
 import Projects from './Projects';
 
 //css
@@ -9,7 +9,7 @@ function Home () {
     return(
         <main className={style.home_page}>
             <About />   
-            <Techs />   
+            <Skills />   
             <Projects />   
         </main>
     )
