@@ -29,3 +29,10 @@
     width: 50%;
     height: 50%;
 }
+
+@media screen and (max-width: 740px), (max-height: 800px){
+    .skill_card{
+        width: 150px;
+        height: 150px;
+    }
+}

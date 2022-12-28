@@ -12,16 +12,16 @@
     position: absolute;
     top: -15%;
     left: 30%;
-    color: #6A5148;
+    color: #6a5148;
     text-shadow: 5px 5px rgba(71, 2, 20, 0.1);
     font-size: 20rem;
     transform: rotate(20deg);
+    white-space: nowrap;
     z-index: 0;
 }
 
 .shigoto{
     font-size: 15rem;
-    white-space: nowrap;
     top: 65%;
     left: 85%;
     transform: rotate(-20deg);
@@ -29,7 +29,6 @@
 
 .shoujiki{
     font-size: 12rem;
-    white-space: nowrap;
     top: 80%;
     left: 10%;
     transform: rotate(-20deg);
@@ -132,6 +131,24 @@
 /* responsive */
 
 @media screen and (max-width: 1200px) {
+    .background{
+        top: -10%;
+        left: 30%;
+        font-size: 15rem;
+    }
+
+    .shigoto{
+        font-size: 10rem;
+        top: 65%;
+        left: 85%;
+    }
+
+    .shoujiki{
+        font-size: 10rem;
+        top: 80%;
+        left: 10%;
+    }
+
     .right img{
         width: 400px;
     }
@@ -183,7 +200,7 @@
 
 @media screen and (max-width: 700px) {
     .shigoto{
-        left: 40%;
+        left: 50%;
     }
 
     .shoujiki{
