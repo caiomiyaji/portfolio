@@ -5,7 +5,7 @@ function Header () {
     return(
         <header>
             <div className={style.header_container}>
-                <span className={style.logo}>宮路</span>
+                <a href="#about"><span className={style.logo}>宮路</span></a>
                 <div className={style.links_container}>
                     <a className={style.links} href="#about">About</a>
                     <a className={style.links} href="#skills">Skills</a>

@@ -15,6 +15,10 @@ header{
     margin: auto;
 }
 
+.header_container > a{
+    text-decoration: none;
+}
+
 .logo{
     font-family: var(--logo-font);
     font-size: 1.8rem;
