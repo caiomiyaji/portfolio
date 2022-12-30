@@ -6,7 +6,7 @@ import SkillsInfos from '../../../data/SkillsInfos'
 //css
 import style from './skills.module.css'
 
-function Skills () {
+function Skills ({skillComponent, skillTitle, lastSkill}) {
 
     let effect = true;
 
@@ -20,14 +20,14 @@ function Skills () {
     }, [])
 
     return(
-        <section id="skills"  className={style.skills}>
+        <section id="skills" ref={skillComponent}  className={style.skills}>
             <span className={style.background}>能力</span>
             <span className={`${style.background} ${style.mokuhyou}`}>目標</span>
             <div className={style.content}>
-                <h2>My skills.</h2>
+                <h2 ref={skillTitle}>My skills.</h2>
                 <div className={style.skills_list}>
-                    {Array.from(skillsContent)?.map((skill, index) => (
-                        <SkillsCard key={index} skill={skill.name} image={skill.image}/>
+                    {Array.from(skillsContent)?.map((skill, index, array) => (
+                        <SkillsCard key={index} skill={skill.name} image={skill.image} lastSkill={lastSkill} />
                     ))}
                 </div>
             </div>

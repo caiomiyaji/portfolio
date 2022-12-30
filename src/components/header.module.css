@@ -2,7 +2,8 @@ header{
     position: absolute;
     height: 65px;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
+    background-image: linear-gradient(to bottom, var(--color4), transparent);
 }
 
 .header_container{

@@ -1,5 +1,6 @@
 .project_container{
     display: flex;
+    justify-content: center;
     gap: 25px;
     width: 100%;
 }
@@ -91,3 +92,33 @@
 .code_icon, .demo_icon{
     font-size: 1.5rem;
 }
+
+/* responsiveness */
+
+@media screen and (max-width: 1500px) {
+    .project_container{
+        flex-wrap: wrap;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .right h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right p{
+        font-size: .9rem;
+        line-height: 1.8rem;
+    }
+}
+

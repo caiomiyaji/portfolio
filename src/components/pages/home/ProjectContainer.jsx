@@ -7,7 +7,7 @@ import style from './projectContainer.module.css'
 
 function ProjectContainer ({index, project}) {
     return(
-        <div className={index % 2 === 1 ? `${style.project_container} ${style.project_container_reverse}` : style.project_container}>
+        <div className={index % 2 === 1 ? `${style.project_container} ${window.innerWidth > 1500 && style.project_container_reverse}` : style.project_container}>
             <div className={style.left}>
                 <img src={project.image} alt={project.name} />
             </div>

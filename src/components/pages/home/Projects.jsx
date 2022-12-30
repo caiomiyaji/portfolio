@@ -5,7 +5,7 @@ import ProjectsInfos from '../../../data/ProjectsInfos';
 //css
 import style from './projects.module.css';
 
-function Projects () {
+function Projects ({projectComponent, projectTitle}) {
 
     let effect = true;
 
@@ -19,9 +19,11 @@ function Projects () {
     }, [])
 
     return(
-        <section id="projects" className={style.projects}>
+        <section id="projects" ref={projectComponent} className={style.projects}>
+            <span className={style.background}>勇気</span>
+            <span className={`${style.background} ${style.biyou}`}>美容</span>
             <div className={style.content}>
-                <h2>My projects.</h2>
+                <h2 ref={projectTitle}>My projects.</h2>
                 <div className={style.projects_list}>
                     {projectList?.map((project, index) => (
                        <ProjectContainer key={index} index={index} project={project}/> 
