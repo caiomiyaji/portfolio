@@ -5,8 +5,8 @@
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    background-image: linear-gradient(90deg, #694e45, var(--color2));
     scrollbar-width: none;
+    background-color: var(--color4);
 }
 
 .home_page::-webkit-scrollbar{

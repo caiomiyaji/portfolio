@@ -13,8 +13,7 @@
     position: absolute;
     top: -10%;
     left: 40%;
-    color: #6A5148;
-    text-shadow: 5px 5px rgba(71, 2, 20, 0.1);
+    color: var(--color2);
     font-size: 15rem;
     transform: rotate(-20deg);
     white-space: nowrap;

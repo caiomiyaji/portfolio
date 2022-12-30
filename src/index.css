@@ -1,7 +1,8 @@
 :root{
-    --color1: #470214;
-    --color2: #82655b;
-    --color3: #636882;
+    --color1: #ff0044;
+    --color2: rgba(71, 2, 20, 0.3);
+    --color3: #82655b;
+    --color4: #111111;
 
     --logo-font: 'Sawarabi Mincho', serif;
     --main-font: 'Poppins', sans-serif;

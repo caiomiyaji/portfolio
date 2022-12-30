@@ -15,7 +15,7 @@
     transform: translateY(-100%);
     width: 100%;
     height: 100px;
-    background-image: linear-gradient(to top, var(--color2), transparent);
+    background-image: linear-gradient(to top, var(--color4), transparent);
     z-index: 2;
 }
 

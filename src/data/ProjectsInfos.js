@@ -92,7 +92,7 @@ const ProjectsInfos = [
     },
     {
         name: "Ping Pong Game",
-        description: "This is my first attempt on creating a web game! This Ping-pong game was built with HTML CSS and JS.",
+        description: "This is my first attempt on creating a web game! This Ping-pong game was built with HTML CSS and JS. The game was created using the HTML canvas tag. I used class syntax to create all the functionalities and animations. In this game your adversary is a bot, and there's no points limits.",
         type: "code",
         demo_url: "https://caiomiyaji.github.io/ping-pong-game/",
         code_url: "https://github.com/caiomiyaji/ping-pong-game",
