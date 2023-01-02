@@ -1,8 +1,19 @@
+//icons
 import html from '../assets/html-icon.svg'
 import css from '../assets/css-icon.svg'
 import js from '../assets/javascript-icon.svg'
 import reactJs from '../assets/react-icon.svg'
 import bubble from '../assets/bubble-icon.svg'
+
+//images
+import mimovie from '../../public/mimovie/mimovie-home-normal.jpg'
+import boatclub from '../../public/boatclub/boatclub-home-normal.jpg'
+import todo_list from '../../public/todo-list/todo-list.jpg'
+import ping_pong from '../../public/ping-pong/ping-pong.jpg'
+import signup_form from '../../public/signup-form/signup-form.jpg'
+import calculator from '../../public/calculator/calculator.jpg'
+import tattu from '../../public/tattu/tattu-home-normal.jpg'
+import navi from '../../public/navi/navi-home-normal.jpg'
 
 const ProjectsInfos = [
     {
@@ -33,7 +44,7 @@ const ProjectsInfos = [
                 percentage: 61.5
             }
         ],
-        image: "../../../../public/mimovie/mimovie-home-normal.jpg"
+        image: mimovie
     },
     {
         name: "BoatClub",
@@ -58,7 +69,7 @@ const ProjectsInfos = [
                 percentage: 32.6
             }
         ],
-        image: "../../../../public/boatclub/boatclub-home-normal.jpg"
+        image: boatclub
     },
     {
         name: "Todo List",
@@ -88,7 +99,7 @@ const ProjectsInfos = [
                 percentage: 58.4
             }
         ],
-        image: "../../../../public/todo-list/todo-list.jpg"
+        image: todo_list
     },
     {
         name: "Ping Pong Game",
@@ -108,7 +119,7 @@ const ProjectsInfos = [
                 percentage: 86.2
             }
         ],
-        image: "../../../../public/ping-pong/ping-pong.jpg"
+        image: ping_pong
     },
     {
         name: "Sign Up Form",
@@ -133,7 +144,7 @@ const ProjectsInfos = [
                 percentage: 47.7
             }
         ],
-        image: "../../../../public/signup-form/signup-form.jpg"
+        image: signup_form
     },
     {
         name: "Calculator",
@@ -158,7 +169,7 @@ const ProjectsInfos = [
                 percentage: 57.5
             }
         ],
-        image: "../../../../public/calculator/calculator.jpg"
+        image: calculator
     },
     {
         name: "Tattu",
@@ -173,7 +184,7 @@ const ProjectsInfos = [
                 percentage: 100
             }
         ],
-        image: "../../../../public/tattu/tattu-home-normal.jpg"
+        image: tattu
     },
     {
         name: "Navi",
@@ -188,7 +199,7 @@ const ProjectsInfos = [
                 percentage: 100
             }
         ],
-        image: "../../../../public/navi/navi-home-normal.jpg"
+        image: navi
     },
 ]
 
