@@ -29,6 +29,7 @@ function Skills ({skillComponent, skillTitle, lastSkill}) {
                     {Array.from(skillsContent)?.map((skill, index, array) => (
                         <SkillsCard key={index} skill={skill.name} image={skill.image} lastSkill={lastSkill} />
                     ))}
+                    <div className={style.skills_list_padding}></div>
                 </div>
             </div>
         </section>

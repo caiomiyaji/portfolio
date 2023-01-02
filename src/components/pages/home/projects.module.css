@@ -24,18 +24,6 @@
     transform: rotate(-20deg);
 }
 
-.projects::after{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transform: translateY(-100%);
-    width: 100%;
-    height: 100px;
-    background-image: linear-gradient(to top, var(--color4), transparent);
-    z-index: 2;
-}
-
 .content{
     position: relative;
     margin: auto;

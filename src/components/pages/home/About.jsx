@@ -12,7 +12,7 @@ function About () {
                     <h2>Hi! 🖖</h2>
                     <h2>I'm Caio Miyaji!</h2>
                     <p>I'm a Frontend Developer based in Brazil. I build projects using traditional programming languages and also no-code platforms!</p>
-                    <button>Contact me!</button>
+                    <a href="mailto:c.hidekimiyaji@gmail.com"><button>Contact me!</button></a>
                 </div>
                 <div className={style.right}>
                     <img src={profile} alt="" />

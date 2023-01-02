@@ -31,10 +31,9 @@
     flex-direction: column;
     gap: 50px;
     width: 100%;
-    max-height: calc(100% - 50px);
+    max-height: 100%;
     max-width: 1600px;
     padding: 0 80px;
-   
     z-index: 2;
     overflow-y: auto;
     scrollbar-width: none;
@@ -57,6 +56,11 @@
     flex-wrap: wrap;
     gap: 50px;
     height: 100%;
+}
+
+.skills_list_padding{
+    width: 100%;
+    min-height: 50px;
 }
 
 @media screen and (max-width: 1200px) {

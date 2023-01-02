@@ -2,6 +2,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import { useEffect, useRef, useState } from 'react';
+import Loader from '../../Loader';
 
 //css
 import style from './home.module.css'
@@ -13,6 +14,7 @@ function Home () {
     const [projectVisible, setProjectVisible] = useState();
     const [skillVisible, setSkillVisible] = useState();
     const [lastSkillVisible, setLastSkillVisible] = useState();
+    const [loading, setLoading] = useState(true);
 
     const container = useRef();
     const projectComponent = useRef();
@@ -24,6 +26,10 @@ function Home () {
     useEffect(() => {
         if(effect){
             effect = false;
+
+            setTimeout(() => {
+                setLoading(false);
+            }, 1500);
 
             const observer = new IntersectionObserver(scroll, {threshold: 0.5});
             const observer2 = new IntersectionObserver(scroll, {threshold: 0.5});
@@ -58,11 +64,14 @@ function Home () {
     }
 
     return(
-        <main className={style.home_page} ref={container} onWheel={(e) => handleWheel(e)}>
-            <About />   
-            <Skills skillComponent={skillComponent} skillTitle={skillTitle} lastSkill={lastSkill}/>   
-            <Projects projectComponent={projectComponent} projectTitle={projectTitle}/>   
-        </main>
+        <div>
+            <main className={style.home_page} ref={container} onWheel={(e) => handleWheel(e)}>
+                <About />
+                <Skills skillComponent={skillComponent} skillTitle={skillTitle} lastSkill={lastSkill}/>
+                <Projects projectComponent={projectComponent} projectTitle={projectTitle}/>
+            </main>
+            {loading && <Loader color={'#ff0044'} loading={loading} size={'50px'}/>}
+        </div>
     )
 }
 
